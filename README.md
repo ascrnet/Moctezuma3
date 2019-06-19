@@ -1,3 +1,3 @@
-# Moctezuma 3 (La maldición del teroso de Moctezuma)
+# Moctezuma 3 (The curse of Moctezuma's treasure)
 
-En construcción .....
+in construction...!!!!!
