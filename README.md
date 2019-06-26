@@ -2,12 +2,12 @@
 
 in construction...!!!!!
 
-##Development team
+## Development team
 
-###Designer:
+### Designer:
 * Konstantinos Giamalidis (TIX)
 
-###Developers:
+### Developers:
 * José Tomas Parga
 * Abel Carrasco (AsCrNet)
 
