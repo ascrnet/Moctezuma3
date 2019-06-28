@@ -10,6 +10,6 @@ in construction...!!!!!
 * Konstantinos Giamalidis (TIX)
 
 ### Developers:
-* José Tomas Parga
+* José Tomas Parga (Pepe)
 * Abel Carrasco (AsCrNet)
 
