@@ -17,7 +17,7 @@ dl_title
 	.by $42
 	.word authors
 :4 	.by $02+$80
-:2	.by $70
+:6	.by $70
 	.by $70+$80
 	.by $42
 	.word optjoy
@@ -180,7 +180,7 @@ authors
 	dta d'          Konstantinos Giamalidis (TIX) '
 
 optjoy
-	dta d'       Joystick : Normal/Joy 2B+        '
+	dta d' Joystick detected : Normal / Joy 2B+   '
 
 dli
 	pha

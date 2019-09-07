@@ -14,12 +14,19 @@
 
 	org START 
 
+begin 
 
-begin
+; active vbi routine
+	lda #7
+	ldx #>vbi
+	ldy #<vbi
+	jsr SETVBV
 
-	//title test screen ;)
 	icl "titles.asm"
+
 	jmp * 
+
+	icl "vbi.asm"
 
 	
 	run begin

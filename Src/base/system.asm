@@ -32,3 +32,7 @@ NMIEN  = $d40e
 
 ; Chip ANTIC
 PMBASE = $d407
+
+; Operating Sytem ROM
+SETVBV = $e45C
+XITVBV = $e462
