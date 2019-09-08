@@ -24,6 +24,12 @@ begin
 
 	icl "titles.asm"
 
+	icl "type_joy.asm"
+
+	mva #$82 COLOR4
+
+	
+
 	jmp * 
 
 	icl "vbi.asm"
