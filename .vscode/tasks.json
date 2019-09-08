@@ -10,10 +10,16 @@
             "args": [ "${file}","-o:${fileBasenameNoExtension}.xex","-v"],
             "problemMatcher": []
         },{
-            "label": "Run Xex",
+            "label": "Run Atari800",
             "type": "shell",
             "command": "atari800",
             "args": [ "${fileBasenameNoExtension}.xex"],
+            "problemMatcher": []
+        },{
+            "label": "Run Altirra",
+            "type": "shell",
+            "command": "wine",
+            "args": [ "/opt/Altirra/Altirra64.exe","${fileBasenameNoExtension}.xex"],
             "problemMatcher": []
         }
 
