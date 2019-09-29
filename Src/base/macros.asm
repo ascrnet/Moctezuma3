@@ -16,7 +16,7 @@
 ;4 player cleaning routine
 .macro clear_pmg
 	ldx #$00
-	ldy #$04 
+	ldy #$04
 clearpmg
 	lda #$00
 clear
@@ -26,4 +26,14 @@ clear
 	inc clear+2
 	dey
 	bne clearpmg
+.endm
+
+; player cleaning routine
+.macro clear_pm0
+	ldy #14
+	lda #0
+c_pm0
+	sta PMG0+205,y
+	dey
+	bpl c_pm0
 .endm

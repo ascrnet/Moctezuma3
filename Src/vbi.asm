@@ -1,6 +1,10 @@
 ; vbi routine for character movements
 
 vbi
+	lda VBI_FLAG
+	bne vbi_cont
+	jmp end_vbi
+vbi_cont
 	lda RTCLOK
 	and #$08
 	bne vbi_time

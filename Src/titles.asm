@@ -16,7 +16,7 @@ screen_title
 	mva #2 SIZEP0
 	mva #140 HPOSP0
 
-	mva #0 DLILINE
+	mva #0 DLI_FLAG
 	
 	mva #>PMDIR PMBASE
 	clear_pmg

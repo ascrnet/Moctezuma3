@@ -9,12 +9,17 @@ GRAPH = $4000
 
 ; Player/Missile
 PMDIR = $7800
-
 PMG0 = PMDIR+1024 
 PMG1 = PMDIR+1280
 PMG2 = PMDIR+1536
 PMG4 = PMDIR+1792
 
+; Character set memory
+FONT01 = $A000
+FONT02 = $A400
 
 ; Game variables
-DLILINE = $400
+    ORG $0
+VBI_FLAG .ds 1
+DLI_FLAG .ds 1
+JB2_FLAG .ds 1

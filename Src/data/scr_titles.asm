@@ -1,8 +1,5 @@
 
 	org GRAPH
-	
-font_title
-	ins '/data/title.fnt'
 
 dl_title
 :5	.by $70
@@ -188,19 +185,19 @@ dli
 	pha
 	lda #$ff
 	sta COLPF1
-	ldx DLILINE
+	ldx DLI_FLAG
 	cpx #$07
 	bne ndli
 	ldx #$00
-	stx DLILINE
+	stx DLI_FLAG
 ndli
 	lda dlicolor,x
 	sta COLPF2
 	sta WSYNC
-	inc DLILINE
+	inc DLI_FLAG
 	pla
 	tax
 	pla
 	rti
 dlicolor
-	.by $35,$b5,$b5,$b5,$b5,$b5,$00
+	.by $35,$b5,$b5,$b5,$b5,$b5,$0
