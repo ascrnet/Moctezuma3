@@ -14,6 +14,7 @@
 	icl "data/scr_titles.asm"
 	icl "data/scr_game.asm"
 	icl "data/enemies.asm"
+	icl "data/explorer.asm"
 
 	org START
 

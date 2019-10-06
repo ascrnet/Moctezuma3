@@ -17,6 +17,7 @@ screen_title
 	mva #140 HPOSP0
 
 	mva #0 DLI_FLAG
+	mva #1 SNAKE_TYPE
 	
 	mva #>PMDIR PMBASE
 	clear_pmg

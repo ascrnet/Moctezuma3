@@ -20,12 +20,14 @@ pantalla
 :20	.by 66,67
 :11 dta d' '
 	.by 68,69
-:27	dta d' '
+:21	dta d' '
+:3	.by 91,92
 :11 dta d' '
 	.by 68,69
-:27	dta d' '
+:21	dta d' '
+:3	.by 93,94
 :11 dta d' '
-	.by 75,76
+	.by 109,110
 :27	dta d' '
 :11 dta d' '
 	.by 68,69
@@ -50,24 +52,42 @@ pantalla
 :35	dta d' '
 :4 dta d' '
 	.by 86
-:35	dta d' '
+	dta d' '
+	.by 103
+:6	.by 107
+	.by 104
+:30 dta d' '
+	.by 86
+	dta d' '
+	.by 105
+:6	.by 108
+	.by 106
+:30 dta d' '
+	.by 86
+:3  dta d' '
+	.by 68,69
+:30	dta d' '
 :4 dta d' '
 	.by 86
-:35	dta d' '
+:3  dta d' '
+	.by 73,74
+:30	dta d' '
 :4 dta d' '
 	.by 86
-:35	dta d' '
+:3  dta d' '
+	.by 68,69
+:30	dta d' '
 :4 dta d' '
 	.by 86
-:35	dta d' '
-:4 dta d' '
-	.by 86
-:35	dta d' '
-:4 dta d' '
-	.by 86
-:35	dta d' '
-:20	.by 64,65
-:20	.by 66,67
+:3  dta d' '
+	.by 68,69
+:30	dta d' '
+:10	.by 64,65
+:4  dta d' '
+:8	.by 64,65
+:10	.by 66,67
+:4  dta d' '
+:8	.by 66,67
 
 score
 	dta d'3      000000       '
