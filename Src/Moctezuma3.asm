@@ -5,16 +5,16 @@
 ;-----------------------------------------
 
 	opt l-
-	icl "base/system.asm"
-	icl "base/game.asm"
-	icl "base/macros.asm"
+	icl 'base/system.asm'
+	icl 'base/game.asm'
+	icl 'base/macros.asm'
 	opt l+
 
-	icl "data/fonts.asm"
-	icl "data/scr_titles.asm"
-	icl "data/scr_game.asm"
-	icl "data/enemies.asm"
-	icl "data/explorer.asm"
+	icl 'data/fonts.asm'
+	icl 'data/scr_titles.asm'
+	icl 'data/scr_game.asm'
+	icl 'data/enemies.asm'
+	icl 'data/explorer.asm'
 
 	org START
 

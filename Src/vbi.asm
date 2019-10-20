@@ -23,7 +23,7 @@ load_snake1
 	jmp end_vbi
 load_snake3
 	lda snake03,x
-	sta PMG0+74,x
+	sta PMG0+106,x
 	inx
 	cpx #14
 	bne load_snake3
@@ -44,7 +44,7 @@ load_snake2
 	jmp end_vbi
 load_snake4
 	lda snake04,x
-	sta PMG0+74,x
+	sta PMG0+106,x
 	inx
 	cpx #14
 	bne load_snake4

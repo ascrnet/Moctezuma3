@@ -7,8 +7,9 @@ dl_game
 :19	.by $04
 	.by $10+$80
 	.by $10
-	.by $47
+	.by $46
 	.word score
+	.by $10
 	.by $44
 	.word item
 	.by $04
@@ -16,86 +17,15 @@ dl_game
 	.word dl_game
 
 pantalla
-:20	.by 64,65
-:20	.by 66,67
-:11 dta d' '
-	.by 68,69
-:21	dta d' '
-:3	.by 91,92
-:11 dta d' '
-	.by 68,69
-:21	dta d' '
-:3	.by 93,94
-:11 dta d' '
-	.by 109,110
-:27	dta d' '
-:11 dta d' '
-	.by 68,69
-:27	dta d' '
-:11 dta d' '
-	.by 68,69
-:27	dta d' '
-
-:10	.by 103,104
-:20 dta d' '
-:10	.by 105,106
-	.by 70
-:19 dta d' '
-:4 dta d' '
-	.by 86
-:35	dta d' '
-:4 dta d' '
-	.by 86
-:35	dta d' '
-:4 dta d' '
-	.by 86
-:35	dta d' '
-:4 dta d' '
-	.by 86
-	dta d' '
-	.by 103
-:6	.by 107
-	.by 104
-:30 dta d' '
-	.by 86
-	dta d' '
-	.by 105
-:6	.by 108
-	.by 106
-:30 dta d' '
-	.by 86
-:3  dta d' '
-	.by 68,69
-:30	dta d' '
-:4 dta d' '
-	.by 86
-:3  dta d' '
-	.by 73,74
-:30	dta d' '
-:4 dta d' '
-	.by 86
-:3  dta d' '
-	.by 68,69
-:30	dta d' '
-:4 dta d' '
-	.by 86
-:3  dta d' '
-	.by 68,69
-:30	dta d' '
-:10	.by 64,65
-:4  dta d' '
-:8	.by 64,65
-:10	.by 66,67
-:4  dta d' '
-:8	.by 66,67
+	ins 'data/nivel0.map'
 
 score
-	dta d'3      000000       '
+	dta d' ;:5   <:3   012345 '
 
 item
-	.by 83,84,87,88
+	.by $61,$62,$69,$6a
 :36 dta d' '
-	.by 81,82,89,90
+	.by $63,$64,$6b,$6c
 :36 dta d' '
 
 dli2
@@ -106,10 +36,10 @@ ndli2
 	sta WSYNC
 	sta $d01a
 	inx
-	cpx #20
+	cpx #13
 	bne ndli2
 	plr
 	rti	
 
 dlicolor2
-	.by +$20 7 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 7 0 0	
+	.by +$b0,9,2,2,2,2,2,2,2,2,2,9,0,0	
