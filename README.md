@@ -13,7 +13,7 @@ in construction...!!!!!
 * José Tomas Parga (Pepe)
 * Abel Carrasco (AsCrNet)
 
-## Tools used:
+## Tools used
 * [MADS assembler](http://mads.atari8.info/)
 * [Atari FontMaker v1.4](http://matosimi.websupport.sk/atari/2018/10/atari-fontmaker-1-4/)
 * [Atari MapMaker v1.0](http://matosimi.websupport.sk/atari/2016/02/atari-mapmaker-v1-0/)
