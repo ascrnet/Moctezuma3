@@ -6,13 +6,18 @@ screen_game
 	mwa #dli2 VDSLST
     mva #>font_game CHBAS
 
-    mva #$0e COLOR0
-	mva #$0a COLOR1
-	mva #$06 COLOR2
+    mva #$2e COLOR0
+	mva #$28 COLOR1
+	mva #$24 COLOR2
 	mva #$36 COLOR3
 
 	lda #110
 	sta HPOSP0
+
+	mva #$24 PCOLR1
+
+	lda #60
+	sta HPOSP1
 	
 	mva #0 SNAKE_TYPE
 

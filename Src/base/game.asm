@@ -24,3 +24,5 @@ VBI_FLAG .ds 1
 DLI_FLAG .ds 1
 JB2_FLAG .ds 1
 SNAKE_TYPE .ds 1
+SCORPION_TYPE .ds 1
+

@@ -18,6 +18,7 @@ screen_title
 
 	mva #0 DLI_FLAG
 	mva #1 SNAKE_TYPE
+	mva #0 SCORPION_TYPE
 	
 	mva #>PMDIR PMBASE
 	clear_pmg
